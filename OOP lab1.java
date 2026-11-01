@@ -1,71 +1,71 @@
-//class university {
-//
-//    String name = "uet lahore";
-//// make method
-//    void showuniversity() {
-//        System.out.println("university");
-//    }
-//}
-//class student{
-//    String name = "omama";
-////    method
-//     void showstudent(){
-//        System.out.println("student:" + name);
-//
-//    }
-//}
-//public class Main{
-//    public static void main(String[]args){
+class university {
 
-//
-////         now make objects
-//        university u = new university();
-//        student s = new student();
-//
-//        u.showuniversity();
-//        s.showstudent();
-//
-//    }
-//}
+   String name = "uet lahore";
+// make method
+   void showuniversity() {
+       System.out.println("university");
+   }
+}
+class student{
+   String name = "omama";
+//    method
+    void showstudent(){
+       System.out.println("student:" + name);
 
-//public class Main{
-//    public static void main(String[]args){
-//        String name = "omama";
-//        System.out.println("namme");
-//    }
-//}
-//// getter ad setter method is used for the private and protectin of data
-//public class student {
-//    private int marks;
-//
-//    public void setMarks(int marks) {
-//        if (marks >= 0 && marks <= 100) {
-//
-//            this.marks = marks;
-//        }
-//
+   }
+}
+public class Main{
+   public static void main(String[]args){
 
-//    }
 
-//    public int getMarks() {
-//        return marks;
-//
-//    }
-//}
-//public class Main{
-//    public static void main(String[]args){
-////         here is the formation of obj
-//        student s = new student();
-//
-//        s.setmarks(99);
-//        System.out.println(s.getmarks());
-//
-//    }
-//}
-// lab 1
-// Task 1
-//Lab 1
-//Task 1
+//         now make objects
+       university u = new university();
+       student s = new student();
+
+       u.showuniversity();
+       s.showstudent();
+
+   }
+}
+
+public class Main{
+   public static void main(String[]args){
+       String name = "omama";
+       System.out.println("namme");
+   }
+}
+// getter ad setter method is used for the private and protectin of data
+public class student {
+   private int marks;
+
+   public void setMarks(int marks) {
+       if (marks >= 0 && marks <= 100) {
+
+           this.marks = marks;
+       }
+
+
+   }
+
+   public int getMarks() {
+       return marks;
+
+   }
+}
+public class Main{
+   public static void main(String[]args){
+//         here is the formation of obj
+       student s = new student();
+
+       s.setmarks(99);
+       System.out.println(s.getmarks());
+
+   }
+}
+lab 1
+Task 1
+Lab 1
+Task 1
 import java.util.Scanner;
 public class Main{
     public static void main(String[]args){
